@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #ffdca8;
+background-image: url("https://www.transparenttextures.com/patterns/project-paper.png");
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  margin-top: 60px;
+  border-radius: 8px;
+}
+
+.blocks {
+  border-radius: 30%;
+  border: 1px solid black;
+}
+
+.options {
+  position: absolute;
+  background-color: #643d01;
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  top: 0;
+  bottom: 0;
+  width: 360px;
+  border: 3px solid black;
+  border-left: none;
+}
+
+.options_2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 360px;
+  right: 0;
+  background-color: #643d01;
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  top: 0;
+  border: 3px solid black;
+  border-right: none;
+}
+
+.colours, .buttons {
+  margin: 10px 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 10px 68px;
+  width: 240px;
+  height: 550px;
+  padding-top: 30px;
+  margin-left: 110px;
+}
+
+#b1, #b2, #b3, #b4, #b5 {
+  background-color: #ffcd8c;
+  background-image: url("https://www.transparenttextures.com/patterns/graphy-dark.png");
+  height: 160px;
+  width: 140px;
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 30%;
+  opacity: 0.5;
+}
+
+#b1:hover, #b2:hover, #b3:hover, #b4:hover, #b5:hover {
+  opacity: 1;
+}
+
+.colours {
+  margin-top: 104px;
+}
+
+button {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;;
+}
+
+#a_green {
+  background-color: #99B898;
+}
+
+#a_orange {
+  background-color: #FECEAB;
+}
+#a_pink {
+  background-color: #FF847C;
+}
+#a_red {
+  background-color: #E84A5F;
+}
+
+#a_black {
+  background-color: #2A363B;
+}
+
+#b_purple {
+  background-color: #A7226E;
+}
+
+#b_red {
+  background-color: #EC2049;
+}
+
+#b_orange {
+  background-color: #F26B38;
+}
+
+#b_yellow {
+  background-color: #F7DB4F;
+}
+
+#b_blue {
+  background-color: #2F9599;
+}
+
+#c_grey
+{background-color: #9c8888;
+}
+#c_vomit {
+  background-color:#b4ae97;
+}
+#c_green {
+  background-color: #9da98e;
+}
+#c_blue {
+  background-color: #799198;
+}
+#c_black {
+  background-color: #75707c;
+}
+
+#d_red {
+  background-color: #FF0000;
+}
+#d_orange {
+  background-color: #FF7F00;
+}
+#d_yellow { background-color: #FFFF00;
+}
+#d_green { background-color: #00FF00;
+}
+#d_blue { background-color: #0000FF;
+}
+
+#e_dblue {
+  background-color: #325886;
+}
+#e_lblue {
+  background-color: #82A7D6;
+}
+#e_dyellow { background-color: #FEF265;
+}
+#e_yellow {
+  background-color: #FCE8A4;
+}
+#e_pink {
+  background-color: #FEEED4;
+}
+
+#f_dblue {
+  background-color: #14A76C;
+}
+#f_lblue {
+  background-color: #FFE400;
+}
+#f_dyellow { background-color: #FF652F;
+}
+#f_yellow {
+  background-color: #747474;
+}
+#f_pink {
+  background-color: #272727;
+}
+
+#reset {
+  position: absolute;
+  background-color: inherit;
+  left: 660px;
+  bottom: 20px;
+  font-family: comic;
+  font-size: 15px;
+}
+
+#reset:hover {
+  color: white;
+  background-color: black;
+}
+
+#howto {
+  position: absolute;
+  background-color: inherit;
+  left: 648px;
+  top: 20px;
+  font-family: comic;
+  font-size: 15px;
+}
+
+#howto:hover {
+  color: white;
+  background-color: grey;
+}
